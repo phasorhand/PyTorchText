@@ -190,7 +190,7 @@ python2 test.3.py main --model='MultiModelAll'  --batch-size=128 --result-path='
 
 ### 5 文件说明
 - `main.py`: 大多数模型的训练入口
-- `config.py`: 配置文件,可通过命令喊参数传入覆盖默认值
+- `config.py`: 配置文件,可通过命令行参数传入覆盖默认值
 - `test.1.py`: 根据模型生成对应的文件用来融合.
 - `data/`: 数据加载相关
 - `scripts/`: 各种脚本,主要是数据预处理
